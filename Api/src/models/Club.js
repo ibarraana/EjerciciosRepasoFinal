@@ -19,7 +19,7 @@ const Club = sequelize.define("Club", {
         autoIncrement: true
     },
     nombre: {
-        type: DataTypes.STRING(25),
+        type: DataTypes.STRING(35),
         allowNull: false
     },
     direccion: {
@@ -43,7 +43,7 @@ const Club = sequelize.define("Club", {
         allowNull: false
     },
     historiaResumida: {
-        type: DataTypes.STRING(100),
+        type: DataTypes.STRING(250),
         allowNull: false
     }}, {
         tableName: "clubes",

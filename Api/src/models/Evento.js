@@ -43,7 +43,7 @@ const Evento = sequelize.define("Evento", {
         allowNull: false
     },
     reglamentoOpcional: {
-        type: DataTypes.STRING(100),
+        type: DataTypes.STRING(250),
         allowNull: true
     }}, {
         tableName: "eventos",
